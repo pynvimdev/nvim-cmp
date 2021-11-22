@@ -65,8 +65,8 @@ misc.set(_G, { 'cmp', 'plugin', 'colorscheme' }, function()
     ctermbg = 'NONE',
   })
   highlight.inherit('CmpItemAbbrMatchDefault', 'Pmenu', {
-    gui = 'NONE',
-    guibg = 'NONE',
+    gui = 'bold',
+    guibg = 'bold',
     ctermbg = 'NONE',
   })
   highlight.inherit('CmpItemAbbrMatchFuzzyDefault', 'Pmenu', {
