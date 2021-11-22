@@ -55,7 +55,7 @@ misc.set(_G, { 'cmp', 'plugin', 'cmdline', 'leave' }, function()
 end)
 
 misc.set(_G, { 'cmp', 'plugin', 'colorscheme' }, function()
-  highlight.inherit('CmpItemAbbrDefault', 'Pmenu', {
+  highlight.inherit('CmpItemAbbrDefault', 'Comment', {
     guibg = 'NONE',
     ctermbg = 'NONE',
   })
